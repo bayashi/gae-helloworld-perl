@@ -1,9 +1,5 @@
 # memo
 
-## src
-
-<https://github.com/GoogleCloudPlatform/appengine-custom-runtimes-samples/tree/master/perl>
-
 ## app.yaml
 
 <https://cloud.google.com/appengine/docs/flexible/custom-runtimes/configuring-your-app-with-app-yaml>
@@ -14,7 +10,11 @@
 
 ## Deploy
 
-    $ gcloud app --project hello-bayashi deploy app.yaml
+    $ gcloud app --project YOUR_PROJECT deploy app.yaml
     $ gcloud app deploy
 
-https://hello-bayashi.appspot.com/
+https://YOUR_PROJECT.appspot.com/
+
+## src, inspired by
+
+<https://github.com/GoogleCloudPlatform/appengine-custom-runtimes-samples/tree/master/perl>
